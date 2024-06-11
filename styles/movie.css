@@ -1,0 +1,218 @@
+.movie-main {
+    margin-top: 1rem;
+    background-color: white;
+    border: 1px solid black;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+}
+
+.posterCol img {
+    width: 15rem;
+    border: 1px solid black;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.movieInfo {
+    margin-top: 1rem;
+}
+
+.movieInfoRatings {
+    margin-top: 1rem;
+    text-align: center;
+    gap: 2rem;
+}
+
+.movieInfoRatings img {
+    width: 2rem;
+    margin: 0.5rem;
+}
+
+.movieInfoButtons button img {
+    width: 2rem;
+}
+
+.movieInfoReviews {
+    text-align: center;
+}
+
+#listButton,
+#reviewButton {
+    width: 4rem;
+}
+
+.movieInfoReviews {
+    text-align: center;
+}
+
+.MovieInfoReviewsBody {
+    background-color: white;
+    border-bottom: 1px solid black;
+    text-align: left;
+    align-items: center;
+}
+
+
+.reviewhead img {
+    width: 2rem;
+    margin-left: 0.5rem;
+}
+
+.reviewhead{
+    border-bottom: 1px solid black;
+    align-items: center;
+}
+
+.reviewfoot img{
+    width: 2rem;
+}
+
+.reviewfoot{
+    padding: 0.5rem;
+    border-top: 1px solid black;
+    align-items: center;
+    gap: 1rem;
+}
+
+#pfp {
+    margin: 0.5rem;
+    width: 4rem;
+    border: 1px solid black;
+}
+
+.reviewTitle {
+    background-color: #4682B4;
+    color: white;
+    border: 1px solid #FF4040;
+    border-top: none;
+}
+
+.MovieInfoReviewsBody p {
+    background-color: white;
+    padding: 0.5rem;
+}
+
+.MovieInfoInteractions{
+    text-align: left;
+    margin-bottom: 1rem;
+    background-color: white;
+    border: 1px solid black;
+    padding: 0.5rem;
+}
+
+.MovieInfoInteractions img {
+    margin-left: 1rem;
+    width: 2rem;
+}
+
+.review{
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    background-color: white;
+    margin-bottom: 1rem;
+}
+
+.buttons{
+    margin-bottom: 1.5rem;
+}
+
+.reviewhead h4{
+    padding: 1rem;
+}
+
+.review p{
+    padding: 1rem;
+}
+
+#reviewTitle{
+    border: 1px solid #ced4da !important;
+}
+
+.movieInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.movieInfo > div:first-child {
+    flex-grow: 1;
+}
+
+.likeButton:hover, .dislikeButton:hover{
+    transform: scale(1.2);
+}
+
+.likeButton:hover {
+    background-color: rgb(173, 230, 182);
+    border-radius: 0.8rem;
+}
+
+.dislikeButton:hover {
+    background-color: lightcoral;
+    border-radius: 0.8rem;
+}
+
+.commentButton:hover {
+    background-color: rgb(173, 215, 255);
+    border-radius: 0.5rem;
+}
+
+.commentInput{
+    width: 100%;
+    height: 100%;
+    border: 0px !important;
+    padding: none !important;
+}
+
+.comment {
+    display: flex;
+    align-items: center;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.profile-pic {
+    width: 40px; /* Tamaño adecuado para la foto de perfil */
+    height: 40px;
+    margin-right: 20px;
+    border: 1px solid black;
+}
+
+.comment-container {
+    margin-bottom: 20px; /* Espacio entre los comentarios y el formulario */
+}
+
+.comment-text {
+    word-wrap: break-word; /* Esta propiedad hace que el texto se ajuste automáticamente */
+}
+
+.comment-container {
+    max-height: calc(100vh - 200px);
+    overflow-y: auto;
+    height: 23rem;
+    padding-right: 1rem;
+  }
+
+  .fixed-bottom {
+    padding-top: 0.5rem;
+    position: sticky;
+    bottom: 0;
+    background-color: white;
+    z-index: 1; /* Asegura que la parte fija esté sobre el contenido desplazable */
+    border-top: 1px solid #989898; /* Agrega un borde superior para separar la parte fija del contenido desplazable */
+  }
+
+  .deleteButton{
+    width: 1.5rem;
+  }
+
+  .deleteButton:hover{
+    transform: scale(1.2);
+  }
+
+  
+
+

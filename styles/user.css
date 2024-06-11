@@ -1,0 +1,283 @@
+.main{
+    margin-top: 1rem;
+}
+
+#userPfp{
+    width: 12rem;
+    border: 0.2rem solid black;
+    background-color: #F7F7F7;
+}
+
+.userbuttons img{
+    width: 2rem;
+}
+
+.userbuttons{
+    background-color: #F7F7F7;
+    margin: 1rem;
+}
+
+table{
+    margin-top: 2rem;
+    border: 0.1rem solid #FF4040;
+    border-radius: 1rem;
+    text-align: center;
+    width: 12rem;
+}
+
+td{
+    border: 0.1rem solid #FF4040;
+    width: 1rem;
+    background-color: #F7F7F7;
+    padding: 0.2rem;
+}
+
+td a{
+    color: black;
+}
+
+th{
+    border: 0.1rem solid #FF4040;
+    background-color: #4682B4;
+    color: white;
+    padding: 0.5rem;
+}
+
+table input{
+    background-color: #F7F7F7;
+    border: none;
+    width: 12rem;
+    background-image: url('../img/lupa.png');
+    background-repeat: no-repeat;
+    background-size: 1.2rem;
+    padding: none;
+    padding-left: 0.7rem;
+    background-position: 10rem 0.2rem;
+}
+
+.userBodySelect{
+    text-align: center;
+    margin-top: 4rem;
+}
+
+
+
+.userBody{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.listsTable{
+    border-radius: 1rem;
+    outline: auto;
+    overflow: hidden;
+}
+
+
+.listsTable td{
+    border: none;
+    text-align: left;
+    border-right: 0.1rem solid black;
+    border-left: 0.1rem solid black;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-collapse: collapse;
+    padding-bottom: none;
+}
+
+.listsTable td span{
+    font-weight: bold;
+}
+
+.listsTable td:hover{
+    background-color: aliceblue;
+}
+
+.listsTable td img{
+    width: 1.5rem;
+}
+
+#listButtons{
+    float: right;
+}
+
+
+.listsTable tfoot td:hover{
+    background-color: white;
+}
+
+.listsTable th{
+    padding-top: 1rem;
+    background-color: #4682B4;
+    color: #F7F7F7;
+    width: 20rem;
+    border: 0.1rem solid black;
+}
+
+.listsTable tfoot{
+    border-top: 0.1rem solid black;
+    border-bottom: 0.1rem solid black;
+    text-align: right;
+}
+
+.listsTable button{
+    float: right;
+}
+
+.userBody {
+    padding: 20px;
+}
+
+.userBody {
+    padding: 20px;
+}
+
+.review {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 15px;
+    display: flex;
+}
+
+.poster {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reviewbody {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.reviewTitle {
+    width: 80%;
+}
+.reviewText p {
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.reviewInteractions {
+    padding-top: 10px;
+    font-size: 1rem;
+    border-top: 1px solid black;
+    gap: 1rem;
+}
+
+.interaction-icon {
+    width: 2rem;
+}
+
+.star-icon{
+    width: 2rem;
+}
+
+.listTitle{
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.listTitle:hover{
+    color: #0070f8;
+}
+
+.fixed-size-poster {
+    width: 100%;
+    max-width: 300px; /* Ancho máximo para mantener la proporción */
+    height: auto;
+    margin: 1rem;
+}
+
+.reviewText{
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.movieTitle{
+    border-bottom: 1px solid rgb(0, 0, 0);
+    padding-bottom: 10px;
+}
+
+.reviewTitle{
+    margin-top: 10px;
+}
+
+.movieTitle.reviewRating.ms-auto.text-start {
+    display: flex;
+}
+
+.likeButton:hover, .dislikeButton:hover, .deleteButton:hover, .commentButton:hover{
+    transform: scale(1.2);
+}
+
+.likeButton:hover {
+    background-color: rgb(173, 230, 182);
+    border-radius: 0.8rem;
+}
+
+.dislikeButton:hover {
+    background-color: lightcoral;
+    border-radius: 0.8rem;
+}
+
+.commentButton:hover {
+    background-color: rgb(173, 215, 255);
+    border-radius: 0.5rem;
+}
+
+
+.commentInput{
+    width: 100%;
+    height: 100%;
+    border: 0px !important;
+    padding: none !important;
+}
+
+.comment {
+    display: flex;
+    align-items: center;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.profile-pic {
+    width: 40px; /* Tamaño adecuado para la foto de perfil */
+    height: 40px;
+    margin-right: 20px;
+    border: 1px solid black;
+}
+
+.comment-container {
+    margin-bottom: 20px; /* Espacio entre los comentarios y el formulario */
+}
+
+
+
+.comment-container {
+    max-height: calc(100vh - 200px);
+    overflow-y: auto;
+    height: 23rem;
+    padding-right: 1rem;
+  }
+
+  .fixed-bottom {
+    padding-top: 0.5rem;
+    position: sticky;
+    bottom: 0;
+    background-color: white;
+    z-index: 1; /* Asegura que la parte fija esté sobre el contenido desplazable */
+    border-top: 1px solid #989898; /* Agrega un borde superior para separar la parte fija del contenido desplazable */
+  }
+
+  .deleteButton{
+    width: 1.5rem;
+  }
+
+  

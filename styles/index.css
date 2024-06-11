@@ -1,0 +1,158 @@
+/*HEADER ------------------------------------------------------------------------------------------------------------------*/
+header {
+    background-color: #F7F7F7;
+    height: 4rem;
+    align-items: center;
+}
+
+#headerlogo {
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+.headerIcons {
+    width: 3rem;
+    height: 3rem;
+    border: 0.1rem solid black;
+}
+
+header a{
+    color: #FF4040;
+    text-decoration: none;
+}
+
+
+/*NAVBAR ------------------------------------------------------------------------------------------------------------------*/
+nav {
+    color: #F7F7F7;
+    border: 1px solid #FF4040;
+    border-top: 1.5px solid #FF4040;
+}
+
+nav select{
+    width: 8rem !important;
+}
+
+nav form{
+    gap: 0.2rem;
+}
+
+nav select, input{
+    border: 0.1rem solid #FF4040 !important;
+}
+
+#sandwich{
+    border: none !important;
+}
+
+/*MAIN ------------------------------------------------------------------------------------------------------------------*/
+body {
+    background-color: #e3f4ff;
+    display: flex;
+}
+
+nav a {
+    text-decoration: none;
+    color: #F7F7F7 !important;
+}
+
+/*movie ----------------------------------------------------------*/
+.movie {
+    margin-top: 1rem;
+    margin-left: 2rem;
+    margin-right: 1rem;
+    border: 0.1rem solid #333333;
+    background-color: #F7F7F7;
+    padding: 1rem;
+}
+
+
+.movie h4{
+    text-align: center;
+}
+
+.poster{
+    text-align: center;
+}
+
+.poster img {
+    width: 12rem;
+    border: 1px solid black;
+}
+
+#star {
+    width: 2.7rem;
+    height: 2.5rem;
+}
+
+#ratinglogo {
+    width: 2.7rem;
+    height: 2.7rem;
+}
+
+.ratings {
+    text-align: center;
+}
+
+.movieTitle {
+    margin-top: 0.2rem;
+}
+
+#listButton, #reviewButton{
+    margin-left: 1rem;
+    margin-top: 1rem;
+    border: 0.1rem solid black;
+    background-color: #d0e3ff;
+    color: #F7F7F7;
+}
+
+#listButton:hover, #reviewButton:hover{
+    background-color: #0D6EFD;
+}
+
+.movieButtons button img{
+    width: 2rem;
+    padding: 0.1rem;
+}
+
+.listSymbol{
+    width: 2rem;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+}
+
+.listSymbol img{
+    width: 1.5rem;
+}
+
+.list{
+    width: 26rem;
+    padding-bottom: 0.5rem;
+    padding-TOP: 0.5rem;
+;}
+
+.modal-body table{
+    max-width: 28rem;
+}
+
+.modal-body button{
+    margin-top: 2rem;
+}
+
+.modal-body tr{
+    border-bottom: 0.05rem solid black;
+}
+
+#toggleButton, #responsiveContent{
+    margin: 1rem;
+}
+
+.modal input{
+    border: 1px solid #ced4da !important;
+}
+
+.search-info {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
